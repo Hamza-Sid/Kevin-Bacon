@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>6 Degrees of Kevin Bacon</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="nav-bar"></div>
+    <h1>6 Degrees of Kevin Bacon</h1>
+    <div id="app">
+      <div class="inp">
+        <!-- <input type="file" > -->
+        <input type="file">
+        Eligible Movies/Actors:
+        <textarea rows="30" cols="20"></textarea>
+        <br><br>Enter an actor:
+      </div>
+
+      <input type="text" name="actor" value="" id="usr">
+      <p id="change-me"></p>
+      <button onclick="onscreen()" type="button" name="button">Click</button>
+      <!-- <p>{{text}}</p> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="Calculator.js"></script>
+  </body>
+</html>
