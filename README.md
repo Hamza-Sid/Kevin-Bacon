@@ -1,1 +1,1 @@
-# Kevin-Bacon
+# Six-Degrees-Kevin-Bacon
